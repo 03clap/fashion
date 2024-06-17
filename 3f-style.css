@@ -1,0 +1,110 @@
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fffaeb;
+}
+
+h1,
+h2,
+h3,
+h4,
+.work-sans-serif {
+    font-family: "Work Sans", sans-serif;
+}
+
+.korean-text {
+    font-family: "Noto Sans KR", sans-serif;
+    /* 한국어 글꼴 설정 */
+}
+
+.english-text {
+    font-family: "Work Sans", sans-serif;
+    /* 영어 글꼴 설정 */
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #3a4161 !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(pages/style_2.jpg);
+    background-size: contain;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+
+.card-hover {
+    transition: transform 0.2s;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    height: 300px; 
+    border-radius: 20px; 
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px; 
+}
+
+.rounded-circle {
+    display: none;
+}
+
+    /* 전체 섹션 스타일링 */
+    #bottom-gallery-section {
+        padding-top: 100px; 
+        padding-bottom: 100px; 
+    }
+
+    /* 사진 카드 스타일링 */
+    .photo-card {
+        overflow: hidden;
+        transition: transform 0.3s;
+        display: block;
+    }
+
+    .photo-card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .photo-card:hover {
+        transform: scale(1.05);
+    }
+
+
+
+
+
+
+
+
+
